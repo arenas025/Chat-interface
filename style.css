@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.cellphone-main-container{
+    width: 100%;
+    height: 380px;
+    background-color: gray;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle__cellphone-main-container{
+    width: 50%;
+    height: 330px;;
+    border-bottom-right-radius: 80%;
+    background-color: blueviolet;
+    align-self: flex-start;
+    margin-right: 50%;
+}
+
+.cellphone-shape__cellphone-main-container{
+    width: 180px;
+    height: 320px;
+    position: absolute;
+    justify-self: center;
+    border: 9px solid white;
+    border-radius: 24px;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "chat";
+}
+.cellphone-shape__cellphone-main-container--header{
+    grid-area: header;
+    display: grid;
+    grid-template-areas: 
+    ". block block ."
+    "arrow avatar avatar menu";
+    background-image: linear-gradient(to right, #963cfe, #a93dfe, #bb3efe, #cb40fe, #db43fe);
+    height: 35%;
+    border-radius: 15px 15px 5px 5px;
+}
+.cellphone-shape__cellphone-main-container--header-block{
+grid-area: block;
+width: 100%;
+height: 60%;
+border-radius: 0 0 10px 10px;
+background-color: white;
+}
+
+.cellphone-shape__cellphone-main-container--header-arrow{
+    grid-area: arrow;
+    width: 100%;
+    justify-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cellphone-shape__cellphone-main-container--header-arrow div{
+width: 10px;
+height: 10px;
+background-image: url(./assets/images/arrow..png);
+background-repeat: no-repeat;
+background-size: contain;
+position: absolute;
+}
+
+.cellphone-shape__cellphone-main-container--header-avatar{
+    grid-area: avatar;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.cellphone-shape__cellphone-main-container--header-avatar-photo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cellphone-shape__cellphone-main-container--header-avatar-photo div{
+    width: 23px;
+    height: 23px;
+    border: 1.5px solid white;
+    border-radius: 100%;
+    background-image: url(./assets/images/avatar.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    }
+
+.cellphone-shape__cellphone-main-container--header-avatar-text{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.cellphone-shape__cellphone-main-container--header-avatar-text--name{
+font-size: 10px;
+display: inline;
+color: white;
+font-family: 'Readex Pro'
+}
+
+.cellphone-shape__cellphone-main-container--header-avatar-text--status{
+font-size: 6px;
+display: inline;
+color: white;
+font-family: 'Readex Pro';
+}
+
+.cellphone-shape__cellphone-main-container--header-menu{
+    grid-area: menu;
+    width: 100%;
+    justify-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cellphone-shape__cellphone-main-container--header-menu div{
+
+    width: 10px;
+    height: 10px;
+    background-image: url(./assets/images/circulos.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;    
+}
