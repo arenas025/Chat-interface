@@ -3,11 +3,11 @@
 }
 
 .circle__cellphone-main-container{
-    width: 40%;
+    width: 40vw;
     position: absolute;
     left: 0px;
     margin: 0px;
-    height: 400px;
+    height: 60vh;
 }
 
 .text-main-container h1{
@@ -17,11 +17,17 @@
 .text-main-container{
     position: absolute;
     right: 10%;
-    top: 25%;
+    top: 35vh;
     margin: auto 0;
     width: 40%;
+    
 }
 
+.cellphone-shape__cellphone-main-container{
+    margin: 0px;
+}
+
+
 .cellphone-main-container{
-    align-items: center;
+    height: 100vh;
 }

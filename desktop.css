@@ -3,5 +3,19 @@
 }
 
 .circle__cellphone-main-container{
-    width: 30%;
+    height: 500px;
+    border-bottom-left-radius: 80%;
+}
+
+.cellphone-shape__cellphone-main-container{
+    margin: 0px;
+    left: 25%;
+}
+
+.cellphone-main-container{
+    height: 100vh;
+}
+
+.text-main-container{
+    top: 40%;
 }
