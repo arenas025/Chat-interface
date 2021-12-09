@@ -37,8 +37,9 @@ body{
     background-color: beige;
     margin-top: 150px;
     -webkit-box-shadow: 21px 19px 48px -3px rgba(0,0,0,0.61); 
-box-shadow: 21px 19px 48px -3px rgba(0,0,0,0.61);
+    box-shadow: 21px 19px 48px -3px rgba(0,0,0,0.61);
 }
+
 .cellphone-shape__cellphone-main-container--header{
     display: grid;
     grid-template-areas: 
@@ -411,8 +412,11 @@ font-family: 'Readex Pro';
 
 .text-main-container p{
     font-size: 15px;
+    margin: 0 auto;
     margin-top: 25px;
+    max-width: 600px;
     padding: 10px;
     color: gray;
     line-height: 2;
+    font-family: 'Readex Pro',sans-serif;
 }

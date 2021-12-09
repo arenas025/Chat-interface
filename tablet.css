@@ -1,0 +1,27 @@
+.cellphone-shape__cellphone-main-container{
+    left: 90px;
+}
+
+.circle__cellphone-main-container{
+    width: 40%;
+    position: absolute;
+    left: 0px;
+    margin: 0px;
+    height: 400px;
+}
+
+.text-main-container h1{
+    margin: 0px;
+}
+
+.text-main-container{
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    margin: auto 0;
+    width: 40%;
+}
+
+.cellphone-main-container{
+    align-items: center;
+}
